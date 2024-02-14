@@ -1,0 +1,266 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+p{
+    font-weight: 300;
+    color: #111;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 20px 10px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.5s;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.logo{
+    color: rgb(230, 225, 225);
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration: none;
+}
+.logo span{
+    color: aqua;
+    text-align: center;
+    font-size: 50px;
+}
+
+.navbar{
+    display: flex;
+    position: relative;
+    }
+    .navbar li{
+        list-style: none;
+    }
+    .navbar a{
+        /*color: orangered;*/
+        text-decoration: none;
+        margin-left: 30px;
+        font-weight: 700;
+    }
+
+    .btn-reserve{
+        padding: 10px 20px;
+        background: aqua;
+        margin-top: -10px;
+        text-transform: uppercase;
+        
+    }
+
+    .btn-reserve:hover{
+        background: aqua;
+        transition: ease-out;
+    }
+
+    header .navbar li a:hover{
+        color: aqua;
+        border-bottom: 2px solid aqua;
+    }
+    
+    .banniere{
+        position: relative;
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        height: 200px;
+        justify-content: center;
+        background-image: url(images/WhatsApp\ Image\ 2024-02-13\ à\ 14.56.24_efe65d2f.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: rgba(0, 0, 0, 0,24);
+        margin-top: 110px;
+        }
+
+    .banniere .contenu{
+        max-width: 80%;
+        text-align: center;
+       }
+    .banniere .contenu h2{
+        color: rgb(217, 211, 211);
+        font-size: 4em;
+        text-transform: capitalize;
+        
+    }
+    .contenu p:nth-child(2){
+        color: rgb(243, 239, 239);
+        font-size: 1.2em;
+    }
+
+
+    section{
+        padding: 25px 0 25px 0;
+        text-align: center;
+        font-size: 2rem;
+        font-family: verdana;}
+   
+    #menu-col{
+        box-shadow: 2px 2px 2px #bbb;
+        border: 1px solid #bbb;
+        background-color: #fff;
+        margin: 15px;
+        padding: 15px;
+        flex: 1;
+       
+    }
+    #menu-col h2{
+        background-color: aqua;
+        color: #fff;
+        text-align: center;
+        padding: 5px;
+        font-family: cursive;
+
+    }
+   
+ .box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 1px;
+        border-radius: 20%;
+       
+       }
+       .heading{
+        text-align: center;
+        font-size: 4rem;
+        color: aqua;
+        padding: 1rem;
+        margin: 2rem 0;
+        background: rgba(255, 51, 153, .05);
+       }
+
+       .heading span{
+        color: var(aqua);
+       }
+       .heading{
+        font-size: 3rem;
+       }
+       .about .row{
+        display: flex;
+        align-items: center;
+        gap: 2rem 0;
+        flex-wrap: wrap;
+        padding: 2rem 0;
+        padding-bottom: 3rem;
+       }
+
+       .about .row .video-container{
+        flex: 1 1 40rem;
+        position: relative;
+       }
+
+       .about .row .video-container video{
+        width: 100%;
+        border: 1.5rem solid #fff;
+        border-radius: .5rem;
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+        height: 100%;
+        object-fit: cover;
+       }
+       .about .row .video-container h3{
+        position: absolute;
+        top: 50%; transform: translateY(-50%);
+        font-size: 3rem;
+        color: aqua;
+        background: #fff;
+        width: 100%;
+        padding: 1rem 2rem;
+        text-align: center;
+        mix-blend-mode: screen;
+        }
+
+       .about .row .content{
+        flex: 1 1 40rem;
+       }
+       
+       .about .row .video-container h3{
+        font-size: 3rem;
+        color: #333;
+       }
+       .about .row .video-container p{
+        font-size: 1.5rem;
+        color: #999;
+        padding: 5rem 0;
+        padding-top: 1rem;
+        line-height: 1.5;
+       }
+       
+    .Contact{
+        background-image: url(images/WhatsApp\ Image\ 2024-02-10\ à\ 14.20.26_8fc72467.jpg);
+        background-size: cover;
+        box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.8);
+        width: 100%;
+        background-position: unset;
+        margin-top: 60px;
+        text-align: center;
+        font-size: 28px;
+        font-family: cursive;
+    }
+    
+    .contactform{
+        padding: 65px;
+        background: #fff;
+        box-shadow: 5px 15px 50px rgba(0, 0, 0, 0.8);
+        max-width: 500px;
+        margin-top: 50px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 38%;
+    }
+    
+    .contactform h3{
+        color: #000;
+        font-size: 1.2em;
+        margin-bottom: 20px;
+    }
+    
+    .contactform .inputboite input,
+    .contactform .inputboite textarea{
+    width: 100%;
+    border: 20px solid #f5f1f1;
+    padding: 20px;
+    color: #111;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    resize: none;
+    }
+    
+    .contactform .inputboite input[type="submit"]{
+        font-size: 1em;
+        font-weight: 500;
+        color: #fff;
+        background: aqua;
+        display: inline-block;
+        cursor: pointer;
+        text-transform: unset;
+        text-decoration: none;
+        letter-spacing: px;
+        outline: none;
+        border: none;
+        transition: 0px;
+        max-width: 130px;
+        align-items: center;
+        justify-content: center;
+    }
+    .lamine{
+        display: flex;
+    }
+    
